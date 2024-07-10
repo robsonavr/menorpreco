@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projeto-menorpreco"
+version = "0.1.0"
+description = ""
+authors = ["robsonavr <robsonavr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.44.0"
+scrapy = "^2.11.2"
+scrapy-playwright = "^0.0.36"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+openpyxl = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
